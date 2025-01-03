@@ -1,5 +1,6 @@
 import { Code, Database, Server, Terminal } from 'lucide-react';
 import type { SkillCategory } from '../types/skills';
+import { images } from '../assets';
 
 export const skillCategories: SkillCategory[] = [
   {
@@ -35,7 +36,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "TypeScript", logo: "/src/assets/Typescript.svg" },
       { name: "Java", logo: "/src/assets/java.svg" },
       { name: "Python", logo: "/src/assets/Python.svg" },
-      { name: "C++", logo: "/src/assets/Cpp.svg" },
+      { name: "C++", logo: images.cpp },
     ],
   },
   {
