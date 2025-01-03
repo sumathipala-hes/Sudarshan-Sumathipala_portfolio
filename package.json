@@ -1,6 +1,5 @@
 {
-  "name": "sudarshan-sumathipala-portfolio",
-  "homepage": "https://sumathipala-hes.github.io/sudarshan-sumathipala_portfolio/",
+  "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,13 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.0.8",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

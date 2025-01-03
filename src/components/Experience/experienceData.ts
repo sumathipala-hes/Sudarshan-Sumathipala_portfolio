@@ -1,4 +1,5 @@
 import { ExperienceItem } from './types';
+import * as assets from '../../assets';
 
 export const experiences: ExperienceItem[] = [
   {
@@ -7,14 +8,14 @@ export const experiences: ExperienceItem[] = [
     period: '2024/05 - 2024/12',
     description: 'Working on client projects and internal products, developing full-stack applications with modern technologies.',
     skills: [
-      { name: 'TypeScript', logo: '/src/assets/typescript.svg' },
-      { name: 'React', logo: '/src/assets/react.svg' },
-      { name: 'Redux', logo: '/src/assets/Redux.svg' },
-      { name: 'Express.js', logo: '/src/assets/express.svg' },
-      { name: 'MongoDB', logo: '/src/assets/mongodb.svg' },
-      { name: 'PostgreSQL', logo: '/src/assets/postgresql.svg' },
-      { name: 'GraphQL', logo: '/src/assets/graphql.svg' },
-      { name: 'AWS Lambda', logo: '/src/assets/aws.svg' }
+      { name: 'TypeScript', logo: assets.ts },
+      { name: 'React', logo: assets.react },
+      { name: 'Redux', logo: assets.redux },
+      { name: 'Express.js', logo: assets.express },
+      { name: 'MongoDB', logo: assets.mogodb },
+      { name: 'PostgreSQL', logo: assets.pg },
+      { name: 'GraphQL', logo: assets.gql },
+      { name: 'AWS Lambda', logo: assets.aws }
     ]
   },
   {
@@ -23,14 +24,14 @@ export const experiences: ExperienceItem[] = [
     period: '2023/11 - 2024/05',
     description: 'Developed two training projects, participated in regular code reviews and mentoring sessions. Contributed to client projects and company products.',
     skills: [
-      { name: 'TypeScript', logo: '/src/assets/typescript.svg' },
-      { name: 'React', logo: '/src/assets/react.svg' },
-      { name: 'Redux', logo: '/src/assets/redux.svg' },
-      { name: 'Express.js', logo: '/src/assets/express.svg' },
-      { name: 'MongoDB', logo: '/src/assets/mongodb.svg' },
-      { name: 'PostgreSQL', logo: '/src/assets/postgresql.svg' },
-      { name: 'GraphQL', logo: '/src/assets/graphql.svg' },
-      { name: 'AWS Lambda', logo: '/src/assets/aws.svg' }
+      { name: 'TypeScript', logo: assets.ts },
+      { name: 'React', logo: assets.react },
+      { name: 'Redux', logo: assets.redux },
+      { name: 'Express.js', logo: assets.express },
+      { name: 'MongoDB', logo: assets.mogodb },
+      { name: 'PostgreSQL', logo: assets.pg },
+      { name: 'GraphQL', logo: assets.gql },
+      { name: 'AWS Lambda', logo: assets.aws }
     ]
   }
 ];

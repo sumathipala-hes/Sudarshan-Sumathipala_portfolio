@@ -1,6 +1,6 @@
 import { Code, Database, Server, Terminal } from 'lucide-react';
 import type { SkillCategory } from '../types/skills';
-import { images } from '../assets';
+import * as assets from "../assets";
 
 export const skillCategories: SkillCategory[] = [
   {
@@ -8,11 +8,11 @@ export const skillCategories: SkillCategory[] = [
     description: "Building responsive and interactive user interfaces",
     icon: Code,
     skills: [
-      { name: "HTML", logo: "/src/assets/HTML5.svg" },
-      { name: "CSS", logo: "/src/assets/css3.svg" },
-      { name: "React", logo: "/src/assets/React.svg" },
-      { name: "Next.js", logo: "/src/assets/Next.js.svg" },
-      { name: "Tailwind CSS", logo: "/src/assets/Tailwind CSS.svg" },
+      { name: "HTML", logo: assets.html },
+      { name: "CSS", logo: assets.css },
+      { name: "React", logo: assets.react },
+      { name: "Next.js", logo: assets.next },
+      { name: "Tailwind CSS", logo: assets.tailwind },
     ],
   },
   {
@@ -20,11 +20,11 @@ export const skillCategories: SkillCategory[] = [
     description: "Creating robust server-side applications",
     icon: Server,
     skills: [
-      { name: "Node.js", logo: "/src/assets/Node.js.svg" },
-      { name: "Express.js", logo: "/src/assets/express.svg" },
-      { name: "Spring Boot", logo: "/src/assets/Spring.svg" },
-      { name: "Nest.js", logo: "/src/assets/Nest.js.svg" },
-      { name: "GraphQL", logo: "/src/assets/graphql.svg" },
+      { name: "Node.js", logo: assets.node },
+      { name: "Express.js", logo: assets.express },
+      { name: "Spring Boot", logo: assets.spring },
+      { name: "Nest.js", logo: assets.nest },
+      { name: "GraphQL", logo: assets.gql },
     ],
   },
   {
@@ -32,11 +32,11 @@ export const skillCategories: SkillCategory[] = [
     description: "Core languages and technologies",
     icon: Terminal,
     skills: [
-      { name: "JavaScript", logo: "/src/assets/javascript.svg" },
-      { name: "TypeScript", logo: "/src/assets/Typescript.svg" },
-      { name: "Java", logo: "/src/assets/java.svg" },
-      { name: "Python", logo: "/src/assets/Python.svg" },
-      { name: "C++", logo: images.cpp },
+      { name: "JavaScript", logo: assets.js },
+      { name: "TypeScript", logo: assets.ts },
+      { name: "Java", logo: assets.java },
+      { name: "Python", logo: assets.python },
+      { name: "C++", logo: assets.cpp },
     ],
   },
   {
@@ -44,9 +44,9 @@ export const skillCategories: SkillCategory[] = [
     description: "Database management and optimization",
     icon: Database,
     skills: [
-      { name: "MySQL", logo: "/src/assets/MySQL.svg" },
-      { name: "PostgreSQL", logo: "/src/assets/PostgreSQL.svg" },
-      { name: "MongoDB", logo: "/src/assets/mongodb.svg" },
+      { name: "MySQL", logo: assets.mysql },
+      { name: "PostgreSQL", logo: assets.pg },
+      { name: "MongoDB", logo: assets.mogodb },
     ],
   },
 ];

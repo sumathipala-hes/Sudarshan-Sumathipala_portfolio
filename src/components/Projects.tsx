@@ -1,25 +1,26 @@
 import ProjectCard from './ui/ProjectCard';
 import SectionTitle from './ui/SectionTitle';
+import { vectify, talkmaster, mediroster } from '../assets'
 
 const projects = [
   {
     title: "Vectify",
     description:
       "A Mobile application to generate High-Quality vector graphics of brand logos",
-    image: "src/assets/vectify.webp",
+    image: vectify,
     note: "Work in progress",
   },
   {
     title: "Talk Master",
     description: "A Spoken English practice platform",
-    image: "src/assets/talk master.png",
+    image: talkmaster,
     github: "https://github.com/sumathipala-hes/Talk-Master-FE",
     note: "Work in progress",
   },
   {
     title: "Medi Roster",
     description: "A web application to manage hospital staff roster",
-    image: "src/assets/mediroster.png",
+    image: mediroster,
     github: "https://github.com/sumathipala-hes/MediRoster",
   },
 ];
